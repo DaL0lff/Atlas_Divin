@@ -12,3 +12,28 @@ img,
 video {
   display: block;
 }
+
+:root {
+  --color-pink: #faa8a8;
+  --color-white: #fff;
+}
+
+body {
+  display: flex;
+  width: 393px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+button {
+  border: none;
+}
+
+h1 {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 32px;
+  font-weight: 400;
+}
