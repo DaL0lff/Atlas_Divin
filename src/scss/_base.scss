@@ -16,15 +16,14 @@ video {
 :root {
   --color-pink: #faa8a8;
   --color-white: #fff;
+  --color-gray: #bcbfc3;
 }
 
 body {
   display: flex;
-  width: 393px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
 }
 
 button {
