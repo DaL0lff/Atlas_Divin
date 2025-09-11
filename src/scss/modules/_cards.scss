@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  width: 178.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--Blue, #279ef8);
+  background: var(--Background, #fff);
+  margin: 40 0 40 0px;
+}
+
+.bas-card {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  gap: 10px;
+  align-self: stretch;
+}
+.haut-card {
+  position: relative;
+}
+
+.card-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: var(--Background, #fff);
+  padding: 8px 12px;
+}
+
+.card-enregistre {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.card-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.card-sous-titre {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

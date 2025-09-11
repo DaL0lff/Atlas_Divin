@@ -1,0 +1,70 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  width: 369px;
+}
+
+.filters-title {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.filters-grec {
+  border-radius: 8px;
+  background: var(--Blue, #279ef8);
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.filters-egyptien {
+  border-radius: 8px;
+  background: var(--Yellow, #f8af27);
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.filters-nordique {
+  border-radius: 8px;
+  background: var(--Green, #12965d);
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.filters-romain {
+  border-radius: 8px;
+  background: var(--Red, #f82727);
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.filters-name {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,32 @@
+.footer-haut {
+  display: flex;
+  align-items: flex-end;
+  align-self: stretch;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.footer-bas {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  border-top: 1px solid var(--Text-secondary, #000);
+}
+
+.footer-reseaux {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-credit {
+  color: var(--Text-secondary, #000);
+  font-family: "Bubbler One";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
