@@ -1,9 +1,11 @@
 header {
   display: flex;
+  position: fixed;
   height: 89px;
   padding: 20px 12px;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
 }
 
 .logo {
@@ -21,4 +23,58 @@ header {
 
 .burger {
   cursor: pointer;
+}
+
+.menu {
+  border-top: 1px solid var(--Text-secondary, #000);
+  background: var(--Background-components, #bcbfc3);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+  display: inline-flex;
+  padding: 20 12 20 70;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+  border-bottom: 1px solid #ccc;
+}
+.menu.is-active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(80px);
+}
+
+.special-button {
+  display: flex;
+  padding: 8px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--Text-secondary, #000);
+  background: var(--Text-main, #515050);
+}
+
+@media (min-width: 992px) {
+  .burger {
+    display: none;
+  }
+  .menu-desktop-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .menu-desktop-container {
+    display: none;
+  }
 }

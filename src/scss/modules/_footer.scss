@@ -3,6 +3,7 @@
   align-items: flex-end;
   align-self: stretch;
   justify-content: space-between;
+  margin-bottom: 20px;
 
   a {
     text-decoration: none;
@@ -29,4 +30,21 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media (min-width: 992px) {
+  .container-footer {
+    display: none;
+  }
+  .container-descktop-footer {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-descktop-footer {
+    display: none;
+  }
 }
