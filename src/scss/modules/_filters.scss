@@ -4,11 +4,10 @@
   align-items: flex-start;
   gap: 20px;
   align-self: stretch;
-  width: 369px;
 }
 
 .filters-title {
-  color: var(--Text-main, #515050);
+  color: var(--color-brown);
   font-family: "Bubbler One";
   font-size: 24px;
   font-style: normal;
@@ -18,7 +17,7 @@
 
 .filters-grec {
   border-radius: 8px;
-  background: var(--Blue, #279ef8);
+  background: var(--blue);
   display: flex;
   padding: 12px 8px;
   align-items: center;
@@ -29,7 +28,7 @@
 
 .filters-egyptien {
   border-radius: 8px;
-  background: var(--Yellow, #f8af27);
+  background: var(--yellow);
   display: flex;
   padding: 12px 8px;
   align-items: center;
@@ -40,7 +39,7 @@
 
 .filters-nordique {
   border-radius: 8px;
-  background: var(--Green, #12965d);
+  background: var(--green);
   display: flex;
   padding: 12px 8px;
   align-items: center;
@@ -51,7 +50,7 @@
 
 .filters-romain {
   border-radius: 8px;
-  background: var(--Red, #f82727);
+  background: var(--red);
   display: flex;
   padding: 12px 8px;
   align-items: center;
@@ -61,7 +60,7 @@
 }
 
 .filters-name {
-  color: var(--Background, #fff);
+  color: var(--background, #fff);
   font-family: "Caesar Dressing";
   font-size: 20px;
   font-style: normal;

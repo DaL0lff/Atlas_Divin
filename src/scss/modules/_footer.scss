@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  border-top: 1px solid var(--Text-secondary, #000);
+  border-top: 1px solid var(--nwar, #000);
 }
 
 .footer-reseaux {
@@ -24,7 +24,7 @@
 }
 
 .footer-credit {
-  color: var(--Text-secondary, #000);
+  color: var(--nwar, #000);
   font-family: "Bubbler One";
   font-size: 16px;
   font-style: normal;
@@ -34,17 +34,6 @@
 
 @media (min-width: 992px) {
   .container-footer {
-    display: none;
-  }
-  .container-descktop-footer {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-  }
-}
-
-@media (max-width: 992px) {
-  .container-descktop-footer {
-    display: none;
+    flex-direction: row;
   }
 }

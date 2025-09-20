@@ -5,8 +5,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  border: 2px solid var(--Blue, #279ef8);
-  background: var(--Background, #fff);
+  border: 2px solid var(--blue);
+  background: var(--background);
+  margin: 20 0px;
 }
 
 .bas-card {
@@ -24,7 +25,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background: var(--Background, #fff);
+  background: var(--background);
   padding: 8px 12px;
 }
 
@@ -43,16 +44,10 @@
 }
 
 .sous-titre {
-  color: var(--Text-main, #515050);
+  color: var(--color-brown);
   font-family: "Bubbler One";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.content-card {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
 }

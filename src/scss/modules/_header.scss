@@ -9,7 +9,7 @@ header {
 }
 
 .logo {
-  color: var(--Text-secondary, #000);
+  color: var(--nwar, #000);
   font-family: "Caesar Dressing";
   font-size: 40px;
   font-weight: 400;
@@ -26,9 +26,10 @@ header {
 }
 
 .menu {
-  border-top: 1px solid var(--Text-secondary, #000);
-  background: var(--Background-components, #bcbfc3);
+  border-top: 1px solid var(--nwar, #000);
+  background: var(--color-gray);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  z-index: 999;
 
   display: inline-flex;
   padding: 20 12 20 70;
@@ -37,7 +38,7 @@ header {
   gap: 10px;
 
   position: fixed;
-  top: 0;
+  top: 89px;
   left: 0;
   right: 0;
   transform: translateY(-100%);
@@ -47,7 +48,7 @@ header {
 .menu.is-active {
   opacity: 1;
   pointer-events: auto;
-  transform: translateY(80px);
+  transform: translateY(0);
 }
 
 .special-button {
@@ -58,8 +59,8 @@ header {
   align-items: center;
   gap: 10px;
   border-radius: 4px;
-  border: 1px solid var(--Text-secondary, #000);
-  background: var(--Text-main, #515050);
+  border: 1px solid var(--nwar, #000);
+  background: var(--text-brown, #515050);
 }
 
 @media (min-width: 992px) {

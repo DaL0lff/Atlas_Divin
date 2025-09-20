@@ -13,10 +13,28 @@ video {
   display: block;
 }
 
-:root {
-  --color-pink: #faa8a8;
+html {
+  --color-brown: #515050;
   --color-white: #fff;
   --color-gray: #bcbfc3;
+  --background: #fff;
+  --nwar: #000;
+  --blue: #279ef8;
+  --yellow: #f8af27;
+  --green: #12965d;
+  --red: #f82727;
+}
+
+html[data-theme="dark"] {
+  --color-brown: #e6e6e6;
+  --color-white: #1a1a1a;
+  --color-gray: #4a4a4a;
+  --background: #121212;
+  --nwar: #ffffff;
+  --blue: #3ba9f9;
+  --yellow: #f9bc45;
+  --green: #1fba74;
+  --red: #f94545;
 }
 
 main {
@@ -32,7 +50,7 @@ button {
 }
 
 h1 {
-  color: var(--Text-main, #515050);
+  color: var(--color-brown);
   font-family: "Caesar Dressing";
   font-size: 32px;
   font-weight: 400;
@@ -40,7 +58,7 @@ h1 {
 }
 
 h2 {
-  color: var(--Text-main, #515050);
+  color: var(--color-brown);
   font-family: "Caesar Dressing";
   font-size: 16px;
   font-style: normal;
@@ -49,7 +67,7 @@ h2 {
 }
 
 h3 {
-  color: var(--Text-main, #515050);
+  color: var(--color-brown);
   font-family: "Caesar Dressing";
   font-size: 24px;
   font-style: normal;
@@ -58,7 +76,7 @@ h3 {
 }
 
 p {
-  color: var(--Text-main, #515050);
+  color: var(--color-brown);
   font-family: "Bubbler One";
   font-size: 20px;
   font-style: normal;
@@ -67,7 +85,7 @@ p {
 }
 
 a {
-  color: var(--Text-main, #515050);
+  color: var(--color-brown);
   font-family: "Bubbler One";
   font-size: 20px;
   font-style: normal;
