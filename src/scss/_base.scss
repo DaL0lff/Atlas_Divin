@@ -26,15 +26,15 @@ html {
 }
 
 html[data-theme="dark"] {
-  --color-brown: #e6e6e6;
+  --color-brown: #f7f6f6;
   --color-white: #1a1a1a;
-  --color-gray: #4a4a4a;
-  --background: #121212;
+  --color-gray: #696a6c;
+  --background: #515050;
   --nwar: #ffffff;
-  --blue: #3ba9f9;
-  --yellow: #f9bc45;
-  --green: #1fba74;
-  --red: #f94545;
+  --blue: #a3d7ff;
+  --yellow: #f7f43e;
+  --green: #76e5b5;
+  --red: #f8a7a7;
 }
 
 main {
@@ -43,6 +43,7 @@ main {
   flex-direction: column;
   align-items: flex-end;
   gap: 20px;
+  background-color: var(--background);
 }
 
 button {
